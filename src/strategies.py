@@ -2,7 +2,7 @@
 
 import numpy as np
 
-# payoffs at maturity
+# payoffs at maturity (could also be used for any given time t)
 
 def long_call(S, K):
     return np.maximum(S-K, 0)
